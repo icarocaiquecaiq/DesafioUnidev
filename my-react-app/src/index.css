@@ -1,0 +1,145 @@
+
+
+/* geral */
+
+    #root{
+        background-color: rgb(22, 21, 22);
+        color: white;
+    }
+
+    .link_padrao{
+        color: white;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+
+    .btn_padrao{
+        background: none;       
+        border: none;        
+        padding: .3rem 1rem;
+        border-radius: .3rem;
+        font-weight: 500;          
+        margin: 0;            
+        color: inherit;        
+        font: inherit;      
+        cursor: pointer;     
+        text-decoration: none;  
+    }
+
+    .wrapper_content{
+        overflow: hidden;
+        min-height: 100vh;
+    }
+
+/* geral */
+
+
+
+
+
+
+
+/* cabeçalho */
+
+    /* link header */
+    .link_padrao:hover{
+        color:rgb(0, 110, 255); 
+    }
+
+    /* links dropdown */
+    .remover_link:hover{
+        background-color: rgba(209, 8, 8, 0.800);
+    }
+
+    .adicionar_link:hover{
+        background-color: rgba(4, 4, 206, 0.8);
+    }
+
+    .editar_link:hover{
+        background-color: rgba(255, 123, 0, 0.800);
+    }
+
+/* cabeçalho */
+
+
+
+
+
+
+
+
+/* home */
+
+    /* imagem  */
+    .container_img_cada_evento{
+        max-height: 200px;
+        background-color: rgb(183, 210, 233);
+    }
+
+    /* cada card eventos */
+    .container_acoes_eventos{
+        background-color: #343a40;
+    }
+
+    /* botoes pagina home */
+    .btn_inscrever_home{
+        background-color: rgba(25, 219, 112, 0.800);
+        color: white;
+        padding:.5rem 2rem;
+    }
+    .btn_inscrever_home:hover{
+        background-color: rgba(25, 219, 112);
+
+    }
+
+
+    .btn_remover_home{
+        background-color: rgba(209, 8, 8, 0.800);
+        color: white;
+    }
+    .btn_remover_home:hover{
+        background-color: rgba(209, 8, 8);
+    }
+
+
+    .btn_editar_home{
+        background-color: rgba(248, 182, 1, 0.800);
+        color: white;
+    }
+    .btn_editar_home:hover{
+        background-color:  rgba(248, 182, 1);
+
+    }
+
+/* home */
+
+
+
+/* login e registre-se */
+
+    .register_form input {
+        border: 0;
+        border-radius: 0;
+        border-bottom: 2px solid;
+    }
+
+    .register_form input::placeholder {
+        color: rgba(255, 255, 255, 0.432);
+    }
+
+    .login_form input {
+        border: 0;
+        border-radius: 0;
+        border-bottom: 2px solid;
+    }
+
+/* login */
+
+
+/* telas acima de 992px */
+@media screen and (min-width: 62rem){
+    .container_descricao_site_home p{
+        font-size: 1.2rem;
+    }
+}
+
