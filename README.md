@@ -50,7 +50,7 @@ Foi usado html, css, JS como principal ferramenta.
 
 ## Frameworks:
 
-React.
+React, Bootstrap.
 
 ### Bibliotecas:
 
